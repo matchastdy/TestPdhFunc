@@ -1,15 +1,8 @@
-﻿
+﻿#include <conio.h>	// _kbhitで使用
+#include <stdio.h>	// printfで使用
 
-#include <conio.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <windows.h>
-#include <pdh.h>
-
-#include <string>
-#include <tchar.h>
-
-#include <pdhmsg.h>
+#include <pdh.h>	// Pdh関係のヘッダファイル
+#include <pdhmsg.h>	// Pdhのリターンメッセージ関係のヘッダファイル
 
 /*
 *  Pdhの基本的な使い方
